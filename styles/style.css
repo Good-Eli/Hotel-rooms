@@ -88,6 +88,7 @@ p {
   color: #F9637C;
 
   background: #D8003F;
+  box-shadow: none;
 }
 
 .all-rooms {
@@ -138,6 +139,10 @@ p {
   display: none;
 
   background: rgba(255, 255, 255, 0.4);
+}
+
+.cover-reserved:focus {
+  display: none;
 }
 
 .room-link {
@@ -250,8 +255,6 @@ p {
   align-items: center;
   height: 30px;
   width: 213px;
-
-  /* opacity: 0; */
 }
 
 .best-price-text {
@@ -278,7 +281,3 @@ p {
 .cover:hover .best-price-block {
   display: flex;
 }
-
-/* .cover:hover .cover-reserved {
-  display: grid;
-} */
