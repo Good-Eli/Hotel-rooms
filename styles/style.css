@@ -141,9 +141,9 @@ p {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.cover-reserved:focus {
+/* .cover-reserved:active {
   display: none;
-}
+} */
 
 .room-link {
   text-decoration-line: none;
