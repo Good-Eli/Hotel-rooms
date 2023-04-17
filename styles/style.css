@@ -18,17 +18,6 @@ p {
   box-sizing: border-box;
 }
 
-/* .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-
-  text-align: center;
-
-  border: 1px solid black;
-} */
-
 .absolute-center {
   display: flex;
   flex-direction: column;
@@ -43,19 +32,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .main-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height: 100%;
-  width: 100%;
-
-  text-align: center;
-
-  border: 1px solid black;
-} */
 
 .main-title {
   margin: 17px;
@@ -97,8 +73,6 @@ p {
   display: flex;
 	flex-wrap: wrap;
   justify-content: center;
-
-  /* border: 1px solid black; */
 }
 
 .room {
@@ -140,10 +114,6 @@ p {
 
   background: rgba(255, 255, 255, 0.4);
 }
-
-/* .cover-reserved:active {
-  display: none;
-} */
 
 .room-link {
   text-decoration-line: none;
@@ -249,7 +219,6 @@ p {
   top: 24px;
   left: 24px;
 
-  /* display: flex; */
   display: none;
   align-content: space-around;
   align-items: center;

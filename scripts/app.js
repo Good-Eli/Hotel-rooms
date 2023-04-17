@@ -5,3 +5,7 @@ buttons.forEach((button, index) => {
     div.style.display = 'grid';
   });
 });
+
+function hideElement(element) {
+  element.style.display = 'none';
+}
