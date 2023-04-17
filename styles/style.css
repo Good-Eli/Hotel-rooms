@@ -250,3 +250,35 @@ p {
 .cover:hover .best-price-block {
   display: flex;
 }
+
+.controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.add-room,
+.remove-room {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+
+  background-color: rgba(170, 203, 240, 0.75);
+  border: none;
+  border-radius: 50%;
+  opacity: 0.3;
+
+  transition: opacity 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.add-room:hover,
+.remove-room:hover {
+  opacity: 1;
+}
