@@ -29,7 +29,6 @@ function handleRoomButtons() {
 
 handleRoomButtons();
 
-const roomsContainer = document.querySelector('.all-rooms');
 const addRoomBtn = document.querySelector('.add-room');
 const removeRoomBtn = document.querySelector('.remove-room');
 

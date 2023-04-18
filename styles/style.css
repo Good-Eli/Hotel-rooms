@@ -18,6 +18,7 @@ p {
   box-sizing: border-box;
 }
 
+
 .absolute-center {
   display: flex;
   flex-direction: column;
@@ -43,8 +44,7 @@ p {
 
 .btn {
   height: 48px;
-  min-width: 180px;
-  max-width: 288px;
+  width: 180px;
 
   font-family: 'Open Sans', sans-serif;
 
@@ -81,15 +81,19 @@ p {
   width: 372px;
   height: 372px;
   margin: 16px;
+  overflow: hidden;
 
   border: 0;
   border-radius: 10px;
 }
 
 .room-image {
-  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  border-radius: 10px;
+  height: 100%;
 }
 
 .cover,
@@ -281,4 +285,88 @@ p {
 .add-room:hover,
 .remove-room:hover {
   opacity: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .room {
+    width: 336px;
+    height: 420px;
+  }
+
+  .lower-block {
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    width: 288px;
+    margin-top: 16px;
+  }
+
+  .lower-block-reserved {
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .room {
+    width: 288px;
+    height: 347px;
+  }
+
+  .lower-block {
+    flex-wrap: wrap;
+  }
+
+  .lower-block-reserved {
+    height: 147px;
+  }
+
+  .main-title {
+    margin-bottom: 8px;
+
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 246px;
+    height: 42px;
+    margin-top: 16px;
+
+    font-size: 14px;
+
+    border-radius: 3px;
+  }
+
+  .cover {
+    padding: 21px;
+  }
+
+  .price-block {
+    width: 103px;
+  }
+
+  .currency,
+  .price,
+  .room-title {
+    font-size: 20px;
+  }
+
+  .price-ot {
+    font-size: 17px;
+  }
+
+  .price-text {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .room-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .best-price-block {
+    top: 21px;
+    left: 21px;
+  }
 }
