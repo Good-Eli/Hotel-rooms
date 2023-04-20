@@ -6,7 +6,6 @@ h3,
 h4,
 p {
   margin: 0;
-
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -18,14 +17,12 @@ p {
   box-sizing: border-box;
 }
 
-
 .absolute-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
   background: linear-gradient(180deg, rgba(222, 237, 255, 0.6) 0%, rgba(166, 204, 250, 0.5) 100%);
   background-image: url("images/background.svg");
   background-attachment: fixed;
@@ -36,7 +33,6 @@ p {
 
 .main-title {
   margin: 17px;
-
   font-size: 36px;
   text-align: center;
   color: #000000;
@@ -45,13 +41,10 @@ p {
 .btn {
   height: 48px;
   width: 180px;
-
   font-family: 'Open Sans', sans-serif;
-
   border: none;
   border-radius: 5px;
   background-color: #F91155;
-
   cursor: pointer;
 }
 
@@ -62,7 +55,6 @@ p {
 
 .btn:active {
   color: #F9637C;
-
   background: #D8003F;
   box-shadow: none;
 }
@@ -77,12 +69,10 @@ p {
 
 .room {
   position: relative;
-
   width: 372px;
   height: 372px;
   margin: 16px;
   overflow: hidden;
-
   border: 0;
   border-radius: 10px;
 }
@@ -92,7 +82,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   height: 100%;
 }
 
@@ -102,12 +91,10 @@ p {
   bottom: 0px;
   right: 0px;
   padding: 24px;
-
   display: grid;
   align-content: end;
   width: 100%;
   height: 100%;
-
   overflow: hidden;
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0A2240 100%);
@@ -115,7 +102,6 @@ p {
 
 .cover-reserved {
   display: none;
-
   background: rgba(255, 255, 255, 0.4);
 }
 
@@ -126,18 +112,15 @@ p {
 
 .room-title {
   margin-bottom: 17px;
-
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #FFFFFF;
-
   cursor: pointer;
 }
 
 .pay {
   text-decoration-line: none;
   color: #FF4B77;
-
   cursor: pointer;
 }
 
@@ -158,7 +141,6 @@ p {
 
 .room-description {
   margin-bottom: 10px;
-
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 24px;
@@ -169,7 +151,6 @@ p {
   height: 1px;
   width: 100%;
   margin-bottom: 23px;
-
   border: 0;
   background: rgba(255, 255, 255, 0.2);
 }
@@ -213,7 +194,6 @@ p {
   justify-content: center;
   height: 96px;
   margin: -24px;
-
   background: #3C3E43;
   border-radius: 0 0 10px 10px;
 }
@@ -222,7 +202,6 @@ p {
   position: absolute;
   top: 24px;
   left: 24px;
-
   display: none;
   align-content: space-around;
   align-items: center;
@@ -233,12 +212,10 @@ p {
 .best-price-text {
   height: 30px;
   width: 177px;
-
   font-size: 14px;
   text-align: right;
   vertical-align: middle;
   line-height: 30px;
-
   background: #FF7647;
   border-radius: 3px 0px 0px 3px;
 }
@@ -267,18 +244,14 @@ p {
   width: 35px;
   height: 35px;
   margin-bottom: 10px;
-
   font-size: 18px;
   text-align: center;
   line-height: 30px;
-
   background-color: rgba(170, 203, 240, 0.75);
   border: none;
   border-radius: 50%;
   opacity: 0.3;
-
   transition: opacity 0.2s ease-in-out;
-
   cursor: pointer;
 }
 
@@ -331,9 +304,7 @@ p {
     width: 246px;
     height: 42px;
     margin-top: 16px;
-
     font-size: 14px;
-
     border-radius: 3px;
   }
 
