@@ -24,7 +24,7 @@ p {
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(180deg, rgba(222, 237, 255, 0.6) 0%, rgba(166, 204, 250, 0.5) 100%);
-  background-image: url("/images/background.svg");
+  background-image: url("../images/background.svg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
